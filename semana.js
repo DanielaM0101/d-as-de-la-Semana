@@ -1,3 +1,5 @@
+'use strict'
+
 let week = ['Suday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday'];
 
 // Eliminar el día domingo del inicio de la lista
@@ -16,3 +18,5 @@ week.splice(4, 0, 'Friday');
 for (let i = 0; i < week.length; i++) {
   alert(week[i]);
 }
+
+
